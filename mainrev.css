@@ -5,7 +5,7 @@
 
 img {
 	width: 300px;
-	margin-left: 570px;
+	margin-left: 39%;
 	border-radius: 100px;
 	margin-bottom: 15px;
 }
@@ -34,10 +34,12 @@ body {
 
 
 .calculator {
-	background-color: #CC99CC;
+	/*background-color: #CC99CC;*/
+	background-image: url("http://image.shutterstock.com/display_pic_with_logo/843841/121671808/stock-vector-seamless-pattern-vector-abstract-background-cool-cell-structure-121671808.jpg");
+	background-repeat: no-repeat;
 	color: blue;
 	width: 250px;
-	margin: auto;
+	margin-left: 40%;
 	border-radius: 20px;
 }
 
@@ -46,6 +48,9 @@ button {
 	height: 50px;
 	border-radius: 10px;
 	margin: 2px;
+	background-image: url("http://bestpets.biz/wp-content/uploads/2014/12/simple-kitten-drawing.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: blue;
 	font-weight: bold;
 	font-size: 30px;

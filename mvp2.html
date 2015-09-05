@@ -9,6 +9,9 @@
   <header>
     <h1 id="titleHeader">Larissa and Bob's Calculator of Awesomness</h1>
     <img src="http://static.tumblr.com/vlykcdf/lN2l9mwte/cute-kitten-303.jpg">
+    <audio id="kitten" autoplay>
+      <source src="Kitten-sounds.mp3" type="audio/mpeg">
+    </audio>
   </header>
     <section>
 <script>
@@ -35,6 +38,7 @@ $(function() {
               inputTemp = $input.val();
               inputValTemp = eval($input.val());
               resultTemp = inputTemp + " = " + inputValTemp;
+              $('#kitten')[0].play();
               $('#foot').append("   (" +count + ')  ' + resultTemp);
               try {$input.val(eval($input.val()));} catch (e) {$input.val('ERROR');}
                 //'=' will fetch the current expression string,
